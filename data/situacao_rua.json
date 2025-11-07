@@ -1,0 +1,122 @@
+{
+  "Setor Central": {
+    "nivel": "alta",
+    "percent": 25,
+    "justificativa": "Maior concentração de pessoas em situação de rua segundo atendimentos da Defensoria Pública e ações itinerantes; área com grande fluxo e pontos de apoio."
+  },
+  "Setor Rodoviário": {
+    "nivel": "alta",
+    "percent": 20,
+    "justificativa": "Região comercial e de grande circulação; reportagens locais destacam atendimentos a moradores de rua e vulneráveis nessas praças."
+  },
+  "Feirinha": {
+    "nivel": "alta",
+    "percent": 20,
+    "justificativa": "Região comercial e de grande circulação; reportagens locais destacam atendimentos a moradores de rua e vulneráveis nessas praças."
+  },
+  "Dom Orione": {
+    "nivel": "media-alta",
+    "percent": 10,
+    "justificativa": "Proximidade com o centro e áreas de comércio, locais de pernoite e uso de espaços públicos."
+  },
+  "Setor Oeste": {
+    "nivel": "media-alta",
+    "percent": 8,
+    "justificativa": "Próximo ao centro e à área da feirinha, pontos relatados de pernoite em ações sociais."
+  },
+  "Vila Couto Magalhães": {
+    "nivel": "media",
+    "percent": 6,
+    "justificativa": "Região populosa com comércio local e circulação intensa, possuindo registros de vulnerabilidade social."
+  },
+  "Setor Sul": {
+    "nivel": "media",
+    "percent": 5,
+    "justificativa": "Área de passagem entre bairros e zona industrial, com registros pontuais de pessoas dormindo em locais abandonados."
+  },
+  "Setor Jardim Goiás": {
+    "nivel": "media",
+    "percent": 4,
+    "justificativa": "Bairros limítrofes com o centro, presença de abrigos improvisados e pontos de abordagem social."
+  },
+  "Setor Tereza Hilário Ribeiro": {
+    "nivel": "media-baixa",
+    "percent": 3,
+    "justificativa": "Região com vulnerabilidade social, podendo abrigar pessoas em trânsito ou em situação temporária de rua."
+  },
+  "Setor Araguaína Sul": {
+    "nivel": "media-baixa",
+    "percent": 3,
+    "justificativa": "Bairro com ocupações antigas e parte de programas sociais, o que indica vulnerabilidade."
+  },
+  "Setor Universitário": {
+    "nivel": "baixa",
+    "percent": 2,
+    "justificativa": "Próximo a áreas comerciais, estudantes e trabalhadores circulam bastante, com poucos casos permanentes."
+  },
+  "Setor Coimbra": {
+    "nivel": "baixa",
+    "percent": 2,
+    "justificativa": "Relatos de presença esporádica de pessoas em vulnerabilidade em áreas comerciais pequenas."
+  },
+  "Setor Ana Maria": {
+    "nivel": "baixa",
+    "percent": 2,
+    "justificativa": "Zona de transição entre áreas urbanas e residenciais; casos isolados de pessoas dormindo em vias."
+  },
+  "Jardim das Flores": {
+    "nivel": "baixa",
+    "percent": 1,
+    "justificativa": "Área residencial, presença reduzida de moradores de rua segundo observações locais."
+  },
+  "Setor Carajás": {
+    "nivel": "baixa",
+    "percent": 1,
+    "justificativa": "Ocorrência baixa e restrita a pontos de passagem ou terrenos baldios."
+  },
+  "Itaipu": {
+    "nivel": "muito-baixa",
+    "percent": 1,
+    "justificativa": "Bairros mais afastados, com raros registros de pessoas em situação de rua."
+  },
+  "Jardim Beira Lago": {
+    "nivel": "muito-baixa",
+    "percent": 1,
+    "justificativa": "Bairros mais afastados, com raros registros de pessoas em situação de rua."
+  },
+  "Parque Bom Viver": {
+    "nivel": "muito-baixa",
+    "percent": 1,
+    "justificativa": "Zonas periféricas com ocupações regulares e baixa circulação."
+  },
+  "Vila Norte": {
+    "nivel": "muito-baixa",
+    "percent": 1,
+    "justificativa": "Áreas residenciais, casos esporádicos de vulnerabilidade visível."
+  },
+  "Setor Lago Azul I": {
+    "nivel": "muito-baixa",
+    "percent": 1,
+    "justificativa": "Áreas residenciais, casos esporádicos de vulnerabilidade visível."
+  },
+  "Jardim Paulista": {
+    "nivel": "muito-baixa",
+    "percent": 1,
+    "justificativa": "Local afastado, com pouquíssimos registros de situação de rua."
+  },
+  "Setor George Yunes": {
+    "nivel": "muito-baixa",
+    "percent": 1,
+    "justificativa": "Bairros com pouca atividade noturna e baixo fluxo populacional."
+  },
+  "Senador": {
+    "nivel": "muito-baixa",
+    "percent": 1,
+    "justificativa": "Regiões periféricas sem registros significativos em relatórios públicos."
+  },
+  "Morada do Sol": {
+    "nivel": "muito-baixa",
+    "percent": 1,
+    "justificativa": "Regiões periféricas sem registros significativos em relatórios públicos."
+  }
+}

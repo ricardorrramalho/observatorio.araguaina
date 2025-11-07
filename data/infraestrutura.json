@@ -1,0 +1,58 @@
+{
+  "Costa Esmeralda": {
+    "nivel": "alta",
+    "percent": 25,
+    "tipo": "Água / Iluminação",
+    "men": 3,
+    "observacoes": "Faltas de água e furtos de fios de iluminação pública."
+  },
+  "Parque Bom Viver": {
+    "nivel": "media",
+    "percent": 16.7,
+    "tipo": "Água",
+    "men": 2,
+    "observacoes": "Interrupções no fornecimento por 3 dias, reportadas na imprensa."
+  },
+  "Vila Norte": {
+    "nivel": "media",
+    "percent": 16.7,
+    "tipo": "Água",
+    "men": 2,
+    "observacoes": "Interrupções frequentes no fornecimento relatadas."
+  },
+  "Jardim das Mangueiras": {
+    "nivel": "baixa",
+    "percent": 8.3,
+    "tipo": "Água",
+    "men": 1,
+    "observacoes": "Interrupção do abastecimento reportada na mídia."
+  },
+  "Via Lago": {
+    "nivel": "baixa",
+    "percent": 8.3,
+    "tipo": "Iluminação",
+    "men": 1,
+    "observacoes": "Furtos de fios deixaram ruas sem luz."
+  },
+  "Vila Azul": {
+    "nivel": "baixa",
+    "percent": 8.3,
+    "tipo": "Iluminação",
+    "men": 1,
+    "observacoes": "Problemas com vandalismo em postes de energia/iluminação."
+  },
+  "Setor Aeroporto": {
+    "nivel": "baixa",
+    "percent": 8.3,
+    "tipo": "Esgoto",
+    "men": 1,
+    "observacoes": "Lançamento de esgoto clandestino denunciado."
+  },
+  "Neblina": {
+    "nivel": "baixa",
+    "percent": 8.3,
+    "tipo": "Esgoto",
+    "men": 1,
+    "observacoes": "Lançamento de esgoto no córrego Neblina."
+  }
+}
