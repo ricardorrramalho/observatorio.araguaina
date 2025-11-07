@@ -1,0 +1,9 @@
+{
+  "Maracanã": { "nivel": "alta", "percent": 11, "justificativa": "Maior número de registros de abuso infantil." },
+  "Setor Araguaína Sul": { "nivel": "media-alta", "percent": 8, "justificativa": "Diversos casos registrados no período analisado." },
+  "Costa Esmeralda": { "nivel": "media", "percent": 6, "justificativa": "Incidência relevante com padrão recorrente." },
+  "São João": { "nivel": "media", "percent": 5, "justificativa": "Casos identificados em diferentes faixas etárias." },
+  "Parque Bom Viver": { "nivel": "media-baixa", "percent": 4, "justificativa": "Casos esporádicos, porém existentes." },
+  "Setor Ana Maria": { "nivel": "baixa", "percent": 2, "justificativa": "Casos isolados." },
+  "São Pedro": { "nivel": "muito-baixa", "percent": 1, "justificativa": "Baixa incidência registrada." }
+}

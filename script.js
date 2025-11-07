@@ -446,7 +446,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'imps':'data/incidencia_midiatica.json',    
       'vg':'data/violencia_geral.json',    
       'psr':'data/situacao_rua.json',    
-      'cg':'data/criminalidade_geral.json'    
+      'cg':'data/criminalidade_geral.json',  
+       'vdc':'data/violacao_crianca_adolescente.json'
     };    
     loadAndPaint(urls[key]);    
   }    
