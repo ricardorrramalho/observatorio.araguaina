@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Observatório Araguaína — Mapa Integrado</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Leaflet Draw -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css"/>
+  <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
+
+  <!-- Leaflet Heat -->
+  <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+
+  <!-- Chart.js (mini-gráficos) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+   <header>
+  <div class="brand">🗺️ Observatório Araguaína</div>
+  <div class="spacer"></div>
+
+  <div class="toggle-group">
+    <label class="toggle"><input id="chkHeat" type="checkbox"/><span>Heatmap</span></label>
+    <label class="toggle"><input id="chkLabels" type="checkbox" checked/><span>Rótulos</span></label>
+
+    <button id="btn-missing" class="chip">
+      🧩 Faltando no mapa <span id="missing-badge" class="badge-mini" style="display:none">0</span>
+    </button>
+
+    <button id="btn-credits" class="chip">
+      Créditos
+    </button>
+  </div>
+</header>
+
+    <aside>
+      <div class="tabs">
+        <button class="tab active" data-tab="vd">Violência Doméstica</button>
+        <button class="tab" data-tab="mi">Moradia Irregular</button>
+        <button class="tab" data-tab="infra">Infraestrutura</button>
+        <button class="tab" data-tab="imps">Incidência Midiática – Programas Sociais</button>
+        <button class="tab" data-tab="vg">Violência Geral</button>
+        <button class="tab" data-tab="psr">Pessoas em Situação de Rua</button>
+        <button class="tab" data-tab="cg">Criminalidade Geral</button>
+      </div>
+
+      <div id="tab-content">
+        <!-- Cada aba tem um slot para receber a legenda -->
+        <div class="tab-panel" data-panel="vd" style="display:block;">
+          <div class="legend-slot"></div>
+          <h2>Violência Doméstica</h2>
+          <p class="muted">Bairros, justificativas e heatmap por incidência.</p>
+        </div>
+
+        <div class="tab-panel" data-panel="mi">
+          <div class="legend-slot"></div>
+          <h2>Moradia Irregular</h2>
+          <p class="muted">Incidência estimada por bairro com justificativa.</p>
+        </div>
+
+        <div class="tab-panel" data-panel="infra">
+          <div class="legend-slot"></div>
+          <h2>Infraestrutura</h2>
+          <p class="muted">Deficiências reportadas (água, iluminação, esgoto). A cor reflete a incidência; o popup mostra o tipo e observações.</p>
+        </div>
+
+        <div class="tab-panel" data-panel="imps">
+          <div class="legend-slot"></div>
+          <h2>Incidência Midiática – Programas Sociais</h2>
+          <p class="muted">Bairros com maior visibilidade em ações sociais (cestas, auxílios, etc.).</p>
+        </div>
+
+        <div class="tab-panel" data-panel="vg">
+          <div class="legend-slot"></div>
+          <h2>Violência Geral</h2>
+          <p class="muted">Menções midiáticas de crimes por bairro (roubos, furtos etc.).</p>
+        </div>
+
+        <div class="tab-panel" data-panel="psr">
+          <div class="legend-slot"></div>
+          <h2>Pessoas em Situação de Rua</h2>
+          <p class="muted">Concentração estimada e justificativa por área.</p>
+        </div>
+
+        <div class="tab-panel" data-panel="cg">
+          <div class="legend-slot"></div>
+          <h2>Criminalidade Geral</h2>
+          <p class="muted">Classificação por incidência e justificativa por bairro/área.</p>
+        </div>
+
+        <div class="legend">
+          <div><strong>Ranking (Top 10)</strong></div>
+          <div id="ranking" class="ranking"></div>
+        </div>
+
+        <div class="card small">
+          <h3>Mini-gráfico (bairro selecionado)</h3>
+          <canvas id="miniChart" height="140"></canvas>
+          <div id="miniInfo" class="muted" style="margin-top:6px"></div>
+        </div>
+      </div>
+    </aside>
+
+    <div id="map"></div>
+  </div>
+
+
+  <!-- LEGENDA GLOBAL (será movida para o slot da aba ativa pelo JS) -->
+  <div id="legend-levels" class="legend-levels">
+    <div class="legend-title">Níveis</div>
+    <div class="legend-pills">
+      <span class="pill pill-alta">Alta</span>
+      <span class="pill pill-media-alta">Média-alta</span>
+      <span class="pill pill-media">Média</span>
+      <span class="pill pill-media-baixa">Média-baixa</span>
+      <span class="pill pill-baixa">Baixa</span>
+      <span class="pill pill-muito-baixa">Muito baixa</span>
+    </div>
+  </div>
+
+  <!-- Modal: Créditos -->
+  <div id="creditsModal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-labelledby="creditsTitle">
+      <button class="modal-close" id="closeCredits" aria-label="Fechar">&times;</button>
+      <h2 id="creditsTitle">Créditos</h2>
+      <ul id="creditsList"></ul>
+    </div>
+  </div>
+
+  <!-- Modal: Faltando no mapa -->
+  <div id="missingModal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-labelledby="missingTitle">
+      <button class="modal-close" id="closeMissing" aria-label="Fechar">&times;</button>
+      <h2 id="missingTitle">Bairros com dado, mas não desenhados</h2>
+      <p class="muted" style="margin-top:-4px">
+      </p>
+      <ul id="missingList" class="missing-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

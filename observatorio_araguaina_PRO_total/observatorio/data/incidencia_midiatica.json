@@ -1,0 +1,44 @@
+{
+  "Vila Norte": {
+    "nivel": "alta",
+    "percent": 25,
+    "programa": "Cestas básicas / Auxílio Brasil",
+    "men": 3,
+    "observacoes": "Mais citada em notícias de distribuição e programas sociais."
+  },
+  "Parque Bom Viver": {
+    "nivel": "alta",
+    "percent": 25,
+    "programa": "Cestas básicas",
+    "men": 3,
+    "observacoes": "Cobertura midiática de distribuição emergencial e ações de auxílio."
+  },
+  "Setor Aeroporto": {
+    "nivel": "media",
+    "percent": 16.7,
+    "programa": "Cestas básicas / Programas sociais",
+    "men": 2,
+    "observacoes": "Ações de assistência alimentar e social registradas em mídia local."
+  },
+  "Setor Araguaína Sul": {
+    "nivel": "media",
+    "percent": 16.7,
+    "programa": "Cestas básicas",
+    "men": 2,
+    "observacoes": "Programas de auxílio emergencial e distribuição de cestas."
+  },
+  "Setor Jardim Goiás": {
+    "nivel": "baixa",
+    "percent": 8.3,
+    "programa": "Cestas básicas",
+    "men": 1,
+    "observacoes": "Entregas registradas em reportagens e fotos oficiais."
+  },
+  "Setor Oeste": {
+    "nivel": "baixa",
+    "percent": 8.3,
+    "programa": "Cestas básicas",
+    "men": 1,
+    "observacoes": "Menções em notícias de entrega de cestas básicas e ações sociais."
+  }
+}

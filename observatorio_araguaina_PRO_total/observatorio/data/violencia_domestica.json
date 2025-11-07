@@ -1,0 +1,87 @@
+{
+  "Setor Lago Azul I": {
+    "nivel": "alta",
+    "percent": 9,
+    "justificativa": "Frequentemente citado em notícias e ações da DEAM; presença de projetos de enfrentamento à violência doméstica."
+  },
+  "Setor Lago Azul II": {
+    "nivel": "alta",
+    "percent": 9,
+    "justificativa": "Frequentemente citado em notícias e ações da DEAM; alta densidade populacional."
+  },
+  "Setor Lago Azul III": {
+    "nivel": "alta",
+    "percent": 9,
+    "justificativa": "Projetos sociais e vulnerabilidade social elevada."
+  },
+  "Setor Lago Azul IV": {
+    "nivel": "alta",
+    "percent": 8,
+    "justificativa": "Presença de vulnerabilidade social e registros recorrentes."
+  },
+  "Costa Esmeralda": {
+    "nivel": "alta",
+    "percent": 20,
+    "justificativa": "Reportagens sobre prisões por agressão doméstica; infraestrutura limitada."
+  },
+  "Setor Araguaína Sul": {
+    "nivel": "media",
+    "percent": 8,
+    "justificativa": "Região populosa, presença de CRAS, vulnerabilidade socioeconômica."
+  },
+  "Araguaína Sul II": {
+    "nivel": "media",
+    "percent": 7,
+    "justificativa": "Casos noticiados e vulnerabilidade social."
+  },
+  "Setor Ana Maria": {
+    "nivel": "media-baixa",
+    "percent": 5,
+    "justificativa": "Notícias esporádicas; presença de serviços públicos."
+  },
+  "Jardim das Flores": {
+    "nivel": "media-baixa",
+    "percent": 5,
+    "justificativa": "Casos pontuais e estrutura mediana."
+  },
+  "Setor Central": {
+    "nivel": "baixa",
+    "percent": 4,
+    "justificativa": "Maior presença policial e acessibilidade a serviços."
+  },
+  "Neblina": {
+    "nivel": "baixa",
+    "percent": 4,
+    "justificativa": "Casos menos recorrentes; boa infraestrutura."
+  },
+  "Setor Universitário": {
+    "nivel": "baixa",
+    "percent": 3,
+    "justificativa": "Casos isolados e mistura socioeconômica."
+  },
+  "São João": {
+    "nivel": "baixa",
+    "percent": 2,
+    "justificativa": "Casos isolados e menor concentração."
+  },
+  "Senador": {
+    "nivel": "baixa",
+    "percent": 2,
+    "justificativa": "Região de menor vulnerabilidade."
+  },
+  "Dom Orione": {
+    "nivel": "muito-baixa",
+    "percent": 2,
+    "justificativa": "Pouca menção em registros públicos."
+  },
+  "Eldorado": {
+    "nivel": "muito-baixa",
+    "percent": 2,
+    "justificativa": "Boa infraestrutura e renda média."
+  },
+  "JK": {
+    "nivel": "muito-baixa",
+    "percent": 1,
+    "justificativa": "Casos raros e maior segurança percebida."
+  }
+}

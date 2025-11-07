@@ -1,0 +1,47 @@
+{
+  "Setor Garavelo Sul": {
+    "nivel": "alta",
+    "percent": 30,
+    "justificativa": "Grande ocupação irregular envolvendo cerca de 180 famílias, mencionada em várias notícias e ações."
+  },
+  "Setor Ana Maria": {
+    "nivel": "alta",
+    "percent": 25,
+    "justificativa": "Ocupações irregulares às margens da rodovia, além de programas de regularização de imóveis."
+  },
+  "Setor Universitário": {
+    "nivel": "media-alta",
+    "percent": 15,
+    "justificativa": "Área de ocupação irregular registrada pela Prefeitura em ações de retirada de barracos."
+  },
+  "Setor Araguaína Sul": {
+    "nivel": "media",
+    "percent": 10,
+    "justificativa": "Ocupações pontuais e ações preventivas da Prefeitura; vulnerabilidade social moderada."
+  },
+  "Setor Coimbra": {
+    "nivel": "media-baixa",
+    "percent": 5,
+    "justificativa": "Mencionado em programas de regularização fundiária, mas incidência menor."
+  },
+  "Setor Carajás": {
+    "nivel": "baixa",
+    "percent": 3,
+    "justificativa": "Registro de algumas ocupações em programas de regularização; casos isolados."
+  },
+  "Jardim das Flores": {
+    "nivel": "baixa",
+    "percent": 3,
+    "justificativa": "Ocupações esporádicas, regularização em andamento."
+  },
+  "Itaipu": {
+    "nivel": "muito-baixa",
+    "percent": 2,
+    "justificativa": "Poucas menções em registros de notícias ou programas de regularização."
+  },
+  "Vila Couto Magalhães": {
+    "nivel": "muito-baixa",
+    "percent": 2,
+    "justificativa": "Áreas já parcialmente regularizadas, baixa incidência de moradia irregular."
+  }
+}

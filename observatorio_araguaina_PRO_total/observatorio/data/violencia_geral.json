@@ -1,0 +1,128 @@
+{
+  "Setor Oeste": {
+    "nivel": "alta",
+    "percent": 10,
+    "tipos": "Roubo, assalto, homicídio",
+    "men": 4,
+    "observacoes": "Maior cobertura midiática; crimes graves e recorrentes."
+  },
+  "Vila Norte": {
+    "nivel": "alta",
+    "percent": 10,
+    "tipos": "Furtos, brigas, violência doméstica",
+    "men": 4,
+    "observacoes": "Alto registro de crimes urbanos e domésticos"
+  },
+  "Costa Esmeralda": {
+    "nivel": "media",
+    "percent": 7.5,
+    "tipos": "Furtos, pequenos delitos",
+    "men": 3,
+    "observacoes": "Frequentemente citada em furtos e pequenos delitos."
+  },
+  "Parque Bom Viver": {
+    "nivel": "media",
+    "percent": 7.5,
+    "tipos": "Assaltos, violência urbana",
+    "men": 3,
+    "observacoes": "Diversos registros em notícias locais."
+  },
+  "Setor Aeroporto": {
+    "nivel": "media",
+    "percent": 5,
+    "tipos": "Homicídios, roubos",
+    "men": 2,
+    "observacoes": "Citado em casos graves, homicídios e assaltos."
+  },
+  "Setor Jardim Goiás": {
+    "nivel": "media",
+    "percent": 5,
+    "tipos": "Furtos e pequenos delitos",
+    "men": 2,
+    "observacoes": "Menção em furtos e pequenos delitos."
+  },
+  "Setor Araguaína Sul": {
+    "nivel": "media",
+    "percent": 5,
+    "tipos": "Assaltos, violência urbana",
+    "men": 2,
+    "observacoes": "Algumas menções em notícias locais."
+  },
+  "Jardim das Mangueiras": {
+    "nivel": "media",
+    "percent": 5,
+    "tipos": "Furtos e agressões",
+    "men": 2,
+    "observacoes": "Menções esporádicas em notícias regionais."
+  },
+  "Setor Itamaraty": {
+    "nivel": "baixa",
+    "percent": 2.5,
+    "tipos": "Furtos, assaltos",
+    "men": 1,
+    "observacoes": "Menção rara em mídia local."
+  },
+  "Setor Pouso Alegre": {
+    "nivel": "baixa",
+    "percent": 2.5,
+    "tipos": "Furtos e brigas",
+    "men": 1,
+    "observacoes": "Pouca visibilidade em notícias."
+  },
+  "Setor Nova Araguaina": {
+    "nivel": "baixa",
+    "percent": 2.5,
+    "tipos": "Furtos, pequenos delitos",
+    "men": 1,
+    "observacoes": "Registro mínimo em mídia local."
+  },
+  "Setor Central": {
+    "nivel": "baixa",
+    "percent": 2.5,
+    "tipos": "Roubo e violência urbana",
+    "men": 1,
+    "observacoes": "Algumas notícias de pequenos assaltos."
+  },
+  "Jardim Paulista": {
+    "nivel": "baixa",
+    "percent": 2.5,
+    "tipos": "Furtos e brigas",
+    "men": 1,
+    "observacoes": "Poucas menções em mídia local."
+  },
+  "São João": {
+    "nivel": "baixa",
+    "percent": 2.5,
+    "tipos": "Furtos, violência urbana",
+    "men": 1,
+    "observacoes": "Menção esporádica."
+  },
+  "Setor Mansões": {
+    "nivel": "baixa",
+    "percent": 2.5,
+    "tipos": "Assaltos e pequenos delitos",
+    "men": 1,
+    "observacoes": "Pouca cobertura midiática."
+  },
+  "Setor Nova Fronteira": {
+    "nivel": "baixa",
+    "percent": 2.5,
+    "tipos": "Furtos e pequenos delitos",
+    "men": 1,
+    "observacoes": "Registro mínimo."
+  },
+  "Setor Brasil": {
+    "nivel": "baixa",
+    "percent": 2.5,
+    "tipos": "Furtos e agressões",
+    "men": 1,
+    "observacoes": "Algumas menções isoladas."
+  },
+  "Setor Monte Sinai": {
+    "nivel": "baixa",
+    "percent": 2.5,
+    "tipos": "Furtos e agressões",
+    "men": 1,
+    "observacoes": "Menção rara em mídia local."
+  }
+}

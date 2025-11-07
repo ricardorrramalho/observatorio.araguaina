@@ -1,0 +1,112 @@
+{
+  "Setor Central": {
+    "nivel": "alta",
+    "percent": 18,
+    "justificativa": "Região com maior circulação, comércio intenso e histórico de furtos, roubos e tráfico em praças e terminais."
+  },
+  "Setor Rodoviário": {
+    "nivel": "alta",
+    "percent": 15,
+    "justificativa": "Ponto de comércio popular, com alta movimentação e registro frequente de furtos e tráfico."
+   },
+  "Feirinha": {
+    "nivel": "alta",
+    "percent": 15,
+    "justificativa": "Ponto de comércio popular, com alta movimentação e registro frequente de furtos e tráfico."
+  },
+  "Setor Oeste": {
+    "nivel": "alta",
+    "percent": 10,
+    "justificativa": "Área com ruas comerciais e bares noturnos, recorrência de brigas e roubos de celulares."
+  },
+  "Setor Araguaína Sul": {
+    "nivel": "media-alta",
+    "percent": 8,
+    "justificativa": "Bairro populoso e com registros de homicídios e roubos a residências."
+  },
+  "Dom Orione": {
+    "nivel": "media-alta",
+    "percent": 7,
+    "justificativa": "Proximidade ao centro, registro de furtos a veículos e estabelecimentos."
+  },
+  "Vila Couto Magalhães": {
+    "nivel": "media",
+    "percent": 6,
+    "justificativa": "Zona residencial antiga, com violência doméstica e furtos em comércios."
+  },
+  "Setor Ana Maria": {
+    "nivel": "media",
+    "percent": 5,
+    "justificativa": "Região de transição urbana, com registros pontuais de tráfico e assaltos."
+  },
+  "Setor Coimbra": {
+    "nivel": "media",
+    "percent": 4,
+    "justificativa": "Área residencial próxima ao centro; casos esporádicos de assaltos e tráfico leve."
+  },
+  "Setor Universitário": {
+    "nivel": "media",
+    "percent": 4,
+    "justificativa": "Alta circulação de jovens; registros de furtos e pequenos roubos."
+  },
+  "Setor Tereza Hilário Ribeiro": {
+    "nivel": "media-baixa",
+    "percent": 3,
+    "justificativa": "Bairro em expansão, ocorrências de furtos e brigas de bar."
+  },
+  "Setor George Yunes": {
+    "nivel": "media-baixa",
+    "percent": 3,
+    "justificativa": "Comércios locais e movimentação noturna; roubos de motos."
+  },
+  "Setor Carajás": {
+    "nivel": "media-baixa",
+    "percent": 3,
+    "justificativa": "Bairro misto, furtos e danos patrimoniais moderados."
+  },
+  "Setor Jardim Goiás": {
+    "nivel": "baixa",
+    "percent": 2,
+    "justificativa": "Crimes pontuais de furto e agressões."
+  },
+  "Araguaína Sul II": {
+    "nivel": "baixa",
+    "percent": 2,
+    "justificativa": "Afastado do centro, registros ocasionais de violência doméstica."
+  },
+  "Vila Norte": {
+    "nivel": "baixa",
+    "percent": 2,
+    "justificativa": "Poucos registros; casos isolados de furtos."
+  },
+  "Setor Lago Azul I": {
+    "nivel": "baixa",
+    "percent": 2,
+    "justificativa": "Região periférica, baixo número de ocorrências."
+  },
+  "Jardim Beira Lago": {
+    "nivel": "baixa",
+    "percent": 1,
+    "justificativa": "Bairro calmo, longe das zonas de maior criminalidade."
+  },
+  "Jardim das Flores": {
+    "nivel": "baixa",
+    "percent": 1,
+    "justificativa": "Bairro de perfil familiar, baixa incidência."
+  },
+  "Senador": {
+    "nivel": "baixa",
+    "percent": 1,
+    "justificativa": "Pequenos furtos e conflitos de vizinhança eventuais."
+  },
+  "Morada do Sol": {
+    "nivel": "muito-baixa",
+    "percent": 1,
+    "justificativa": "Raras ocorrências, geralmente ligadas a disputas domésticas."
+  },
+  "Parque Bom Viver": {
+    "nivel": "muito-baixa",
+    "percent": 1,
+    "justificativa": "Raras ocorrências, geralmente ligadas a disputas domésticas."
+  }
+}
