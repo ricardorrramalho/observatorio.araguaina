@@ -354,6 +354,26 @@ document.addEventListener('DOMContentLoaded', () => {
         </li>`;
     }).join('');
   }
+
+  // ===== Extras específicos para "Criminalidade Geral"
+  function ensureCgExtras(dict){
+    const out = { ...(dict || {}) };
+    if (!out['Setor Pouso Alegre']) {
+      out['Setor Pouso Alegre'] = {
+        nivel: 'baixa',
+        percent: 2.5,
+        justificativa: 'Pouca visibilidade em notícias.'
+      };
+    }
+    if (!out['Setor Nova Fronteira']) {
+      out['Setor Nova Fronteira'] = {
+        nivel: 'baixa',
+        percent: 2.5,
+        justificativa: 'Registro mínimo.'
+      };
+    }
+    return out;
+  }
     
   // ===== Carregar e pintar por aba    
   let currentDict=null;    
